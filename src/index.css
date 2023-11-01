@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-input {
+  border: 1px solid gray;
+  border-radius: 0.25em;
+  padding: 0.25em;
+  width: 100%;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+
+td,
+th {
+  padding: 0 1em;
+}
