@@ -1,4 +1,4 @@
-import { categories } from "../App";
+import { categories } from "../helper/categories";
 
 type ExpenseFilterProp = {
   onSelectCategory: (category: string) => void;
